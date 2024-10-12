@@ -54,25 +54,32 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-span-1 row-span-4 bg-yellow-500 rounded-lg ">
+            <div className="col-span-1 row-span-2 bg-white rounded-lg ">
+              <div className="h-full flex items-center justify-center">
+                <p className="text-black">TODO</p>
+              </div>
+            </div>
+            <div className="col-span-1 row-span-2 bg-yellow-500 rounded-lg ">
               <div className="h-full flex items-center justify-center">
                 <p className="text-white">
                   Manage multiple accounts and platforms.
                 </p>
               </div>
             </div>
-            <div className="col-span-1 row-span-2 bg-[#ffcc69] rounded-lg">
-              <div className="h-full flex items-center justify-center">
-                <p className="text-black">
-                  Maintain a consistent posting schedule.
+            <div className="col-span-1 row-span-3 bg-[#ffcc69] rounded-lg">
+              <div className="h-[50%] w-[80%] pt-5 pl-5  ">
+                <p className="text-black  text-3xl">
+                  Write your content using AI.
                 </p>
               </div>
+              <div className="h-[50%] bg-blue flex items-center justify-center bg-[#7651dc]"></div>
             </div>
 
-            <div className="col-span-1 row-span-3 bg-[#ffcc69] rounded-lg ">
-              <div className="h-full flex items-center justify-center">
-                <p className="text-black"> Write your content using AI.</p>
+            <div className="col-span-1 row-span-2 bg-white rounded-lg ">
+              <div className="h-[50%] w-[80%] pt-5 pl-5  ">
+                <p className="text-black  text-3xl">TODO 2</p>
               </div>
+              <div className="h-[50%]  flex items-center justify-center"></div>
             </div>
             <div className="col-span-2 row-span-2 bg-[#7651dc] rounded-lg">
               <div className="h-full flex items-center justify-center">
