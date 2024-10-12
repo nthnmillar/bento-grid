@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ["var(--font-dm-sans-regular)", "sans-serif"],
+        italic: ["var(--font-dm-sans-italic)", "sans-serif"],
+        medium: ["var(--font-dm-sans-medium)", "sans-serif"],
+        "medium-italic": ["var(--font-dm-sans-medium-italic)", "sans-serif"],
+        variable: ["var(--font-dm-sans-variable)", "sans-serif"],
+      },
     },
   },
   plugins: [],
