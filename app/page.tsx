@@ -35,6 +35,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
             {/* Schedules */}
             <div className="col-span-1 row-span-4 bg-[#dcd1fc] rounded-lg flex items-end justify-center flex-col">
               <div className="w-[90%]">
@@ -54,11 +55,20 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            {/* TODO */}
             <div className="col-span-1 row-span-2 bg-white rounded-lg ">
-              <div className="h-full flex items-center justify-center">
-                <p className="text-black">TODO</p>
+              <div className="h-[30%] w-[80%] pt-5 pl-5  ">
+                <p className="text-black  ">*image</p>
+              </div>
+              <div className="h-[70%] w-[90%] bg-blue pl-4 flex items-center justify-center ">
+                <p className="text-black leading-[1.5rem]  text-2xl">
+                  Manage multiple accounts and platforms.
+                </p>
               </div>
             </div>
+
+            {/* Manage multiple accounts and platforms. */}
             <div className="col-span-1 row-span-2 bg-yellow-500 rounded-lg ">
               <div className="h-full flex items-center justify-center">
                 <p className="text-white">
@@ -66,15 +76,20 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+            {/* Write your content using AI. */}
             <div className="col-span-1 row-span-3 bg-[#ffcc69] rounded-lg">
               <div className="h-[50%] w-[80%] pt-5 pl-5  ">
                 <p className="text-black  text-3xl">
                   Write your content using AI.
                 </p>
               </div>
-              <div className="h-[50%] bg-blue flex items-center justify-center bg-[#7651dc]"></div>
+              <div className="h-[50%] bg-blue flex items-center justify-center bg-2hite">
+                *image
+              </div>
             </div>
 
+            {/* TODO 2 */}
             <div className="col-span-1 row-span-2 bg-white rounded-lg ">
               <div className="h-[50%] w-[80%] pt-5 pl-5  ">
                 <p className="text-black  text-3xl">TODO 2</p>
