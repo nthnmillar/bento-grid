@@ -106,9 +106,12 @@ export default function Home() {
             </div>
 
             {/*   Grow followers with non-stop content.*/}
-            <div className="col-span-2 row-span-2 bg-[#7651dc] rounded-lg">
-              <div className="h-full flex items-center justify-center">
-                <p className="text-white">
+            <div className="col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
+              <div className="h-[100%] w-[50%] bg-yellow-500  flex items-center justify-center">
+                *image
+              </div>
+              <div className="h-full w-[50%] flex items-center pl-3 pr-3 justify-center">
+                <p className="text-white font-bold text-2xl">
                   Grow followers with non-stop content.
                 </p>
               </div>
