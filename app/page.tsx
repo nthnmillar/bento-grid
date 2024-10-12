@@ -51,18 +51,25 @@ export default function Home() {
             </div>
 
             {/* Schedules */}
-            <div className="col-span-1 row-span-4 bg-[#dcd1fc] rounded-lg flex items-end justify-center flex-col">
+            <div className="col-span-1 row-span-4 bg-[#dcd1fc] flex items-end justify-center flex-col overflow-hidden  rounded-lg">
               <div className="w-[90%]">
-                <div className="flex items-center justify-center mb-4">
-                  <p className="text-black  text-2xl font-bold">
+                <div className="flex items-center justify-center mb-4 ">
+                  <p className="text-black ml-2   leading-[1.5rem] text-2xl font-bold">
                     Schedule to social media.
                   </p>
                 </div>
-                <div className="flex bg-white h-32 p-4 rounded-l-xl items-top ">
-                  <p className="text-black   font-bold">Best time to post</p>
+                <div className=" bg-white p-4 rounded-lg items-top flex-col  translate-x-2 ">
+                  <p className="text-black font-bold">Best time to post</p>
+                  <Image
+                    src="/images/illustration-schedule-posts.webp" // Path to the image in the public folder
+                    alt="Description of image"
+                    width={370} // Image width
+                    height={200} // Image height
+                    objectFit="cover" // Optional: Defines how the image fits within the div
+                  />
                 </div>
                 <div>
-                  <p className="text-black mt-5">
+                  <p className="text-black mt-5 ml-2 ">
                     Optimize post timings to publish content at the perfect time
                     for your audience.
                   </p>
