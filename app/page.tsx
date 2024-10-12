@@ -91,11 +91,18 @@ export default function Home() {
 
             {/* TODO 2 */}
             <div className="col-span-1 row-span-2 bg-white rounded-lg ">
-              <div className="h-[50%] w-[80%] pt-5 pl-5  ">
-                <p className="text-black  text-3xl">TODO 2</p>
+              <div className="h-[50%] w-[80%] pt-5 pl-5">
+                <p className="text-black text-5xl">{">"}56%</p>
+                <p className="text-black text-sm pt-2">
+                  faster audience growth
+                </p>
               </div>
-              <div className="h-[50%]  flex items-center justify-center"></div>
+              <div className="h-[50%] flex  items-center justify-center rounded-lg">
+                *image
+              </div>
             </div>
+
+            {/*   Grow followers with non-stop content.*/}
             <div className="col-span-2 row-span-2 bg-[#7651dc] rounded-lg">
               <div className="h-full flex items-center justify-center">
                 <p className="text-white">
