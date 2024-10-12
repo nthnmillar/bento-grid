@@ -89,15 +89,21 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Manage multiple accounts and platforms. */}
-            <div className="col-span-1 row-span-2 bg-yellow-500 rounded-lg ">
-              <div className="h-[50%] w-[90%] pt-4 pl-4">
+            {/* Maintain multiple accounts and platforms. */}
+            <div className="col-span-1 row-span-2 bg-[#ffcc69] rounded-lg  overflow-hidden">
+              <div className="h-[50%] w-[90%] pt-4 pl-5">
                 <p className="text-black leading-[1.5rem] text-2xl">
                   Maintain a consistent posting schedule.
                 </p>
               </div>
-              <div className="flex items-center justify-center h-[50%]">
-                *image
+              <div className="flex items-center justify-center h-[50%]  translate-y-10">
+                <Image
+                  src="/images/illustration-consistent-schedule.webp" // Path to the image in the public folder
+                  alt="Description of image"
+                  width={175} // Image width
+                  height={220} // Image height
+                  objectFit="cover" // Optional: Defines how the image fits within the div
+                />
               </div>
             </div>
 
@@ -130,7 +136,13 @@ export default function Home() {
                 </p>
               </div>
               <div className="h-[50%] flex  items-center justify-center rounded-lg">
-                *image
+                <Image
+                  src="/images/illustration-audience-growth.webp" // Path to the image in the public folder
+                  alt="Description of image"
+                  width={160} // Image width
+                  height={200} // Image height
+                  objectFit="cover" // Optional: Defines how the image fits within the div
+                />
               </div>
             </div>
 
