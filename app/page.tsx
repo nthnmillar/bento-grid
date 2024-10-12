@@ -29,7 +29,6 @@ export default function Home() {
                 objectFit="cover" // Optional: Defines how the image fits within the div
               />
             </div>
-
             {/* Social */}
             <div className="flex items-center justify-center col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
               <div>
@@ -49,7 +48,6 @@ export default function Home() {
                 <p className="text-white text-sm">Over 4,000 5-star reviews</p>
               </div>
             </div>
-
             {/* Schedules */}
             <div className="col-span-1 row-span-4 bg-[#dcd1fc] flex items-end justify-center flex-col overflow-hidden  rounded-lg">
               <div className="w-[90%]">
@@ -76,11 +74,16 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             {/* TODO */}
-            <div className="col-span-1 row-span-2 bg-white rounded-lg ">
-              <div className="h-[30%] w-[80%] pt-5 pl-5  ">
-                <p className="text-black  ">*image</p>
+            <div className="col-span-1 row-span-2 bg-white rounded-lg overflow-hidden">
+              <div className="h-[30%] w-[100%] pt-5 pl-5  ">
+                <Image
+                  src="/images/illustration-multiple-platforms.webp" // Path to the image in the public folder
+                  alt="Description of image"
+                  width={575} // Image width
+                  height={520} // Image height
+                  objectFit="none" // Optional: Defines how the image fits within the div
+                />
               </div>
               <div className="h-[70%] w-[90%] bg-blue pl-4 flex items-center justify-center ">
                 <p className="text-black leading-[1.5rem] text-2xl">
@@ -88,7 +91,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
             {/* Maintain multiple accounts and platforms. */}
             <div className="col-span-1 row-span-2 bg-[#ffcc69] rounded-lg  overflow-hidden">
               <div className="h-[50%] w-[90%] pt-4 pl-5">
@@ -106,7 +108,6 @@ export default function Home() {
                 />
               </div>
             </div>
-
             {/* Write your content using AI. */}
             <div className="col-span-1 row-span-3 bg-[#ffcc69] rounded-lg">
               <div className="h-[40%] w-[70%] pt-6 pl-8  ">
@@ -126,7 +127,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             {/* TODO 2 */}
             <div className="col-span-1 row-span-2 bg-white rounded-lg ">
               <div className="h-[50%] w-[80%] pt-5 pl-5">
@@ -145,14 +145,21 @@ export default function Home() {
                 />
               </div>
             </div>
-
             {/* Grow followers with non-stop content.*/}
             <div className="col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
-              <div className="h-[100%] w-[50%] bg-yellow-500  flex items-center justify-center">
-                *image
+              <div className="h-[100%] w-[50%]  p-4 flex items-center justify-center">
+                <div className="translate-x-2 translate-y-1">
+                  <Image
+                    src="/images/illustration-grow-followers.webp" // Path to the image in the public folder
+                    alt="Description of image"
+                    width={575} // Image width
+                    height={520} // Image height
+                    objectFit="none" // Optional: Defines how the image fits within the div
+                  />
+                </div>
               </div>
               <div className="h-full w-[50%] flex items-center pl-3 pr-3 justify-center">
-                <p className="text-white font-bold text-2xl">
+                <p className="text-white font-bold text-2xl leading-[1.7rem]">
                   Grow followers with non-stop content.
                 </p>
               </div>
