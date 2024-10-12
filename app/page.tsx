@@ -33,15 +33,20 @@ export default function Home() {
             {/* Social */}
             <div className="flex items-center justify-center col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
               <div>
-                <p className="text-center p-4 text-5xl font-bold text-white">
+                <p className="text-center p-4 text-4xl font-bold text-white">
                   Social Media <span className="text-[#FFD355] "> 10x </span>
                   <br /> <span className=" italic">Faster</span> with AI
                 </p>
               </div>
-              <div>
-                <p className="text-white  font-thin">
-                  Over 4,000 5-star reviews
-                </p>
+              <Image
+                src="/images/illustration-five-stars.webp" // Path to the image in the public folder
+                alt="Description of image"
+                width={120} // Image width
+                height={50} // Image height
+                objectFit="cover" // Optional: Defines how the image fits within the div
+              />
+              <div className="text-white p-1">
+                <p className="text-white text-sm">Over 4,000 5-star reviews</p>
               </div>
             </div>
 
