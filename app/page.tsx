@@ -62,7 +62,7 @@ export default function Home() {
                 <p className="text-black  ">*image</p>
               </div>
               <div className="h-[70%] w-[90%] bg-blue pl-4 flex items-center justify-center ">
-                <p className="text-black leading-[1.5rem]  text-2xl">
+                <p className="text-black leading-[1.5rem] text-2xl">
                   Manage multiple accounts and platforms.
                 </p>
               </div>
@@ -70,10 +70,13 @@ export default function Home() {
 
             {/* Manage multiple accounts and platforms. */}
             <div className="col-span-1 row-span-2 bg-yellow-500 rounded-lg ">
-              <div className="h-full flex items-center justify-center">
-                <p className="text-white">
-                  Manage multiple accounts and platforms.
+              <div className="h-[50%] w-[90%] pt-4 pl-4">
+                <p className="text-black leading-[1.5rem] text-2xl">
+                  Maintain a consistent posting schedule.
                 </p>
+              </div>
+              <div className="flex items-center justify-center h-[50%]">
+                *image
               </div>
             </div>
 
