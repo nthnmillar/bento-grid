@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+// illustration-create-post.webp
+
 export default function Home() {
   return (
     <>
@@ -9,16 +11,23 @@ export default function Home() {
           <div className="grid grid-cols-4 grid-rows-6 gap-4 p-4 w-full h-full">
             {/*Create */}
             <div className="col-span-1 row-span-3  flex items-center justify-center flex-col bg-[#FAEEE2] rounded-lg">
-              <div className="flex items-center justify-center p-4 text-2xl font-bold">
-                <p className="text-black">
+              <div className="flex items-center justify-center  p-4 text-2xl font-bold">
+                <p className="text-black leading-[1.7rem]">
                   Create and schedule content
                   <span className="text-blue-500 italic"> quicker.</span>
                 </p>
               </div>
 
-              <div className="flex items-center justify-center  p-4  py-2 px-6 rounded-full bg-[#fdcd6b]">
+              {/* <div className="flex items-center justify-center  p-4  py-2 px-6 rounded-full bg-[#fdcd6b]">
                 <p className="text-blue-500 font-bold">Create post.</p>
-              </div>
+              </div> */}
+              <Image
+                src="/images/illustration-create-post.webp" // Path to the image in the public folder
+                alt="Description of image"
+                width={150} // Image width
+                height={50} // Image height
+                objectFit="cover" // Optional: Defines how the image fits within the div
+              />
             </div>
 
             {/* Social */}
