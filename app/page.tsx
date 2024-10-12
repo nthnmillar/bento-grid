@@ -103,13 +103,21 @@ export default function Home() {
 
             {/* Write your content using AI. */}
             <div className="col-span-1 row-span-3 bg-[#ffcc69] rounded-lg">
-              <div className="h-[50%] w-[80%] pt-5 pl-5  ">
-                <p className="text-black  text-3xl">
+              <div className="h-[40%] w-[70%] pt-6 pl-8  ">
+                <p className="text-black leading-[1.4rem] text-2xl">
                   Write your content using AI.
                 </p>
               </div>
-              <div className="h-[50%] bg-blue flex items-center justify-center bg-2hite">
-                *image
+              <div className="h-[60%] p-6 flex items-center justify-center">
+                <div className="translate-x-1.5 -translate-y-5">
+                  <Image
+                    src="/images/illustration-ai-content.webp" // Path to the image in the public folder
+                    alt="Description of image"
+                    width={270} // Image width
+                    height={200} // Image height
+                    objectFit="cover" // Optional: Defines how the image fits within the div
+                  />
+                </div>
               </div>
             </div>
 
@@ -126,7 +134,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/*   Grow followers with non-stop content.*/}
+            {/* Grow followers with non-stop content.*/}
             <div className="col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
               <div className="h-[100%] w-[50%] bg-yellow-500  flex items-center justify-center">
                 *image
