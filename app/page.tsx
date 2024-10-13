@@ -141,22 +141,22 @@ export default function Home() {
                 </div>
 
                 {/* 56%*/}
-                <div className="order-6 lg:order-none col-span-1 row-span-2 bg-white rounded-lg ">
+                <div className="order-6 lg:order-none col-span-1 row-span-2 bg-white rounded-lg pb-2 lg:pb-0">
                   <div className="h-[50%] w-[80%] pt-5 pl-5">
                     <p className="text-black text-5xl font-semibold">
                       {">"}56%
                     </p>
-                    <p className="text-black text-[12.5px] pt-2">
+                    <p className="text-black mb-6 lg:mb-0 text-[15px] lg:text-[12.5px] pt-2">
                       faster audience growth
                     </p>
                   </div>
-                  <div className="h-[50%] flex  items-center justify-center rounded-lg">
+                  <div className="lg:h-[50%] flex items-center ml-3 lg:ml-0 lg:mb-0 lg:justify-center rounded-lg">
                     <Image
                       src="/images/illustration-audience-growth.webp"
                       alt="Description of image"
                       width={160}
                       height={200}
-                      objectFit="cover"
+                      objectFit="none"
                     />
                   </div>
                 </div>
