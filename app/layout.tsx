@@ -42,6 +42,14 @@ const dmSansVariable = localFont({
   style: "normal",
 });
 
+export const metadata: Metadata = {
+  title: "Bento Grid",
+  description: "A portfolio project built with Next.js and Tailwind",
+  icons: {
+    icon: "/favicon-arvec.jpg",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

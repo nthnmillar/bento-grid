@@ -22,7 +22,7 @@ export default function Home() {
                   <div className="pl-5 lg:pl-0">
                     <Image
                       src="/images/illustration-create-post.webp"
-                      alt="Description of image"
+                      alt="illustration create post"
                       width={150}
                       height={50}
                       objectFit="cover"
@@ -42,7 +42,7 @@ export default function Home() {
                   <div className="-translate-y-3 lg:-translate-y-0">
                     <Image
                       src="/images/illustration-five-stars.webp"
-                      alt="Description of image"
+                      alt="illustration five stars"
                       width={120}
                       height={50}
                       objectFit="cover"
@@ -67,7 +67,7 @@ export default function Home() {
                       <div className="flex lg:w-[200px] justify-center items-center lg:flex-none">
                         <Image
                           src="/images/illustration-schedule-posts.webp"
-                          alt="Description of image"
+                          alt="illustration schedule posts"
                           width={470}
                           height={300}
                           objectFit="default"
@@ -88,7 +88,7 @@ export default function Home() {
                   <div className="h-[30%] w-[95%] lg:w-[100%] pt-5 pl-5  ">
                     <Image
                       src="/images/illustration-multiple-platforms.webp"
-                      alt="Description of image"
+                      alt="illustration multiple platforms"
                       width={575}
                       height={520}
                       objectFit="none"
@@ -112,7 +112,7 @@ export default function Home() {
                     <div className="w-[100%] lg:w-[80%]">
                       <Image
                         src="/images/illustration-consistent-schedule.webp"
-                        alt="Description of image"
+                        alt="illustration consistent schedule"
                         width={175}
                         height={220}
                         objectFit="cover"
@@ -132,7 +132,7 @@ export default function Home() {
                     <div className="translate-x-1.5 -translate-y-5">
                       <Image
                         src="/images/illustration-ai-content.webp"
-                        alt="Description of image"
+                        alt="illustration ai content"
                         width={270}
                         height={200}
                         objectFit="cover"
