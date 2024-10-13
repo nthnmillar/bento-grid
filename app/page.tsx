@@ -9,9 +9,9 @@ export default function Home() {
             <div className="flex items-center justify-center  h-[100%] w-[100%]">
               <div className="grid grid-cols-1 lg:grid-cols-4  lg:grid-rows-6 gap-4 p-4 w-full h-full">
                 {/*Create */}
-                <div className="order-7 lg:order-none col-span-1 row-span-3 flex items-center justify-center flex-col bg-[#FAEEE2] rounded-lg">
-                  <div className="flex items-center justify-center  p-4 text-2xl font-bold ">
-                    <p className="text-black leading-[1.7rem] font-semibold tracking-tighter">
+                <div className="order-7 lg:order-none col-span-1 row-span-3 flex lg:items-center justify-center flex-col bg-[#FAEEE2] rounded-lg pb-14 lg:pb-0">
+                  <div className="flex items-center lg:sjustify-center p-6 lg:p-4 text-4xl lg:text-2xl font-bold">
+                    <p className="text-black leading-[2.3rem] lg:leading-[1.7rem] font-semibold tracking-tighter">
                       Create and schedule content
                       <span className="text-blue-500 italic font-medium">
                         {" "}
@@ -19,14 +19,15 @@ export default function Home() {
                       </span>
                     </p>
                   </div>
-
-                  <Image
-                    src="/images/illustration-create-post.webp"
-                    alt="Description of image"
-                    width={150}
-                    height={50}
-                    objectFit="cover"
-                  />
+                  <div className="pl-5 lg:pl-0">
+                    <Image
+                      src="/images/illustration-create-post.webp"
+                      alt="Description of image"
+                      width={150}
+                      height={50}
+                      objectFit="cover"
+                    />
+                  </div>
                 </div>
 
                 {/* Social */}
