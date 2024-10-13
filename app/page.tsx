@@ -31,7 +31,7 @@ export default function Home() {
 
                 {/* Social */}
                 <div className="order-1 lg:order-none flex items-center justify-center col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
-                  <div className=" w-[340px] lg:w-[100%]">
+                  <div className="w-[340px] lg:w-[100%]">
                     <p className="font-semibold text-center p-7 lg:p-4 text-[42px] lg:text-4xl text-white leading-[2.7rem] ">
                       Social Media{" "}
                       <span className="text-[#FFD355] "> 10x </span>
@@ -55,25 +55,26 @@ export default function Home() {
                 </div>
 
                 {/* Schedules */}
-                <div className="order-4 lg:order-none col-span-1 row-span-4 bg-[#dcd1fc] flex items-end justify-center flex-col overflow-hidden  rounded-lg">
+                <div className="order-4 lg:order-none col-span-1 row-span-4 bg-[#dcd1fc] flex items-center lg:items-end justify-center flex-col overflow-hidden rounded-lg">
                   <div className="w-[90%]">
-                    <div className="flex items-center justify-center mb-4">
-                      <p className="text-black ml-2 leading-[1.1rem] text-[20px] font-bold">
+                    <div className="flex items-center pt-8 lg:pt-0 justify-center mb-4">
+                      <p className="text-black mb-4 lg:mb-0 mt-3 lg:mt-0 lg:ml-2 leading-[1.1rem] text-[30px] lg:text-[20px] font-bold">
                         Schedule to social media.
                       </p>
                     </div>
-                    <div className=" bg-white p-4 rounded-lg items-top flex-col  translate-x-2 ">
-                      <p className="text-black font-bold">Best time to post</p>
-                      <Image
-                        src="/images/illustration-schedule-posts.webp"
-                        alt="Description of image"
-                        width={370}
-                        height={200}
-                        objectFit="cover"
-                      />
+                    <div className=" bg-white p-4 rounded-lg items-top flex-col lg:translate-x-2 ">
+                      <div className="flex lg:w-[200px] justify-center items-center lg:flex-none">
+                        <Image
+                          src="/images/illustration-schedule-posts.webp"
+                          alt="Description of image"
+                          width={470}
+                          height={300}
+                          objectFit="default"
+                        />
+                      </div>
                     </div>
-                    <div className="w-[90%]">
-                      <p className="text-black mt-5 ml-2 leading-[1.1rem] text-[14px]">
+                    <div className=" lg:w-[90%] mb-8 lg:mb-0  mt-7 lg:mt-0">
+                      <p className="text-black mt-5 ml-2 leading-[1.1rem] text-[18px] lg:text-[14px]">
                         Optimize post timings to publish content at the perfect
                         time for your audience.
                       </p>
