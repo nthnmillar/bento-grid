@@ -122,13 +122,13 @@ export default function Home() {
                 </div>
 
                 {/* Write your content using AI. */}
-                <div className="order-8 lg:order-none col-span-1 row-span-3 bg-[#ffcc69] rounded-lg">
-                  <div className="h-[40%] w-[70%] pt-4 pl-4 font-semibold ">
-                    <p className="text-black leading-[1.6rem] text-[27px] tracking-tighter">
+                <div className="order-8 lg:order-none col-span-1 row-span-3 bg-[#ffcc69] rounded-lg pb-5 lg:pb-0">
+                  <div className="h-[40%] w-[80%] lg:w-[70%] pt-7 pl-7 lg:pt-4 lg:pl-4 font-semibold ">
+                    <p className="text-black leading-[2.4rem] lg:leading-[1.6rem] text-[40px] lg:text-[27px] tracking-tighter">
                       Write your content using AI.
                     </p>
                   </div>
-                  <div className="h-[60%] p-6 flex items-center justify-center">
+                  <div className="h-[60%] p-6 flex items-center lg:justify-center">
                     <div className="translate-x-1.5 -translate-y-5">
                       <Image
                         src="/images/illustration-ai-content.webp"
