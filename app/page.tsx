@@ -83,7 +83,7 @@ export default function Home() {
 
                 {/* Manage multiple accounts and platforms */}
                 <div className="order-2 lg:order-none col-span-1 row-span-2 bg-white rounded-lg overflow-hidden">
-                  <div className="h-[30%] w-[100%] pt-5 pl-5  ">
+                  <div className="h-[30%] w-[95%] lg:w-[100%] pt-5 pl-5  ">
                     <Image
                       src="/images/illustration-multiple-platforms.webp"
                       alt="Description of image"
@@ -92,7 +92,7 @@ export default function Home() {
                       objectFit="none"
                     />
                   </div>
-                  <div className="h-[70%] w-[90%] bg-blue pl-4 pt-3 flex items-center justify-center ">
+                  <div className="h-[70%] w-[90%] bg-blue pl-4 pt-8 lg:pt-3 flex items-center justify-center ">
                     <p className="text-black leading-[1.5rem] text-2xl font-semibold">
                       Manage multiple accounts and platforms.
                     </p>
@@ -101,13 +101,13 @@ export default function Home() {
 
                 {/* Maintain multiple accounts and platforms. */}
                 <div className="order-3 lg:order-none col-span-1 row-span-2 bg-[#ffcc69] rounded-lg  overflow-hidden">
-                  <div className="h-[50%] w-[90%] pt-6 pl-5">
+                  <div className="h-[50%] w-[70%] lg:w-[90%] pt-6 pl-5">
                     <p className="text-black leading-[1.4rem] text-2xl font-semibold">
                       Maintain a consistent posting schedule.
                     </p>
                   </div>
-                  <div className="flex items-center justify-center h-[50%] translate-y-[45px]">
-                    <div className="w-[80%]">
+                  <div className="flex items-center justify-center h-[50%] translate-x-[20px] lg:-translate-x-[0px] lg:translate-y-[45px]">
+                    <div className="w-[100%] lg:w-[80%]">
                       <Image
                         src="/images/illustration-consistent-schedule.webp"
                         alt="Description of image"
