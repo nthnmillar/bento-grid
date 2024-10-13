@@ -140,7 +140,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* TODO 2 */}
+                {/* 56%*/}
                 <div className="order-6 lg:order-none col-span-1 row-span-2 bg-white rounded-lg ">
                   <div className="h-[50%] w-[80%] pt-5 pl-5">
                     <p className="text-black text-5xl font-semibold">
@@ -162,8 +162,8 @@ export default function Home() {
                 </div>
 
                 {/* Grow followers with non-stop content.*/}
-                <div className="order-5 lg:order-none col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
-                  <div className="h-[100%] w-[45%]  p-4 flex items-center justify-center">
+                <div className="order-5 lg:order-none col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-col lg:flex-row items-center justify-center">
+                  <div className="lg:h-[100%] w-[75%] lg:w-[45%]  p-4 flex items-center justify-center ">
                     <div className="translate-x-2 translate-y-1">
                       <Image
                         src="/images/illustration-grow-followers.webp"
@@ -174,8 +174,8 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  <div className="h-full w-[50%] flex items-center pl-3 pr-3 justify-center">
-                    <p className="text-white font-medium text-[23px] leading-[1.7rem] tracking-[1px]">
+                  <div className="lg:h-full w-[70%] lg:w-[55%] mt-5 lg:mt-0 mb-8 lg:mb-5 flex items-center pl-3 pr-3 justify-center">
+                    <p className="text-white font-medium text-[23px] leading-[1.7rem] tracking-[1px] text-center lg:text-left">
                       Grow followers with non-stop content.
                     </p>
                   </div>
