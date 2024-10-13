@@ -31,22 +31,24 @@ export default function Home() {
 
                 {/* Social */}
                 <div className="order-1 lg:order-none flex items-center justify-center col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
-                  <div>
-                    <p className="font-semibold text-center p-4 text-4xl  text-white">
+                  <div className=" w-[340px] lg:w-[100%]">
+                    <p className="font-semibold text-center p-7 lg:p-4 text-[42px] lg:text-4xl text-white leading-[2.7rem] ">
                       Social Media{" "}
                       <span className="text-[#FFD355] "> 10x </span>
-                      <br /> <span className=" italic">Faster</span> with AI
+                      <span className=" italic">Faster</span> with AI
                     </p>
                   </div>
-                  <Image
-                    src="/images/illustration-five-stars.webp"
-                    alt="Description of image"
-                    width={120}
-                    height={50}
-                    objectFit="cover"
-                  />
-                  <div className="text-white p-1">
-                    <p className="text-white text-[12px]">
+                  <div className="-translate-y-3 lg:-translate-y-0">
+                    <Image
+                      src="/images/illustration-five-stars.webp"
+                      alt="Description of image"
+                      width={120}
+                      height={50}
+                      objectFit="cover"
+                    />
+                  </div>
+                  <div className="text-white lg:p-1 -translate-y-2 lg:-translate-y-0 mb-5 lg:mb-0">
+                    <p className="text-white text-[14px] lg:text-[12px]">
                       Over 4,000 5-star reviews
                     </p>
                   </div>
@@ -55,7 +57,7 @@ export default function Home() {
                 {/* Schedules */}
                 <div className="order-4 lg:order-none col-span-1 row-span-4 bg-[#dcd1fc] flex items-end justify-center flex-col overflow-hidden  rounded-lg">
                   <div className="w-[90%]">
-                    <div className="flex items-center justify-center mb-4 ">
+                    <div className="flex items-center justify-center mb-4">
                       <p className="text-black ml-2 leading-[1.1rem] text-[20px] font-bold">
                         Schedule to social media.
                       </p>
