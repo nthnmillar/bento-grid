@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className="flex items-center justify-center h-screen ">
-          <div className="flex items-center justify-center w-[850px] h-[700px]">
+        <div className="flex items-center justify-center lg:h-screen ">
+          <div className="flex items-center justify-center lg:w-[850px] lg:h-[700px]">
             <div className="flex items-center justify-center  h-[100%] w-[100%]">
-              <div className="grid grid-cols-4 grid-rows-6 gap-4 p-4 w-full h-full">
+              <div className="grid grid-cols-1 lg:grid-cols-4  lg:grid-rows-6 gap-4 p-4 w-full h-full">
                 {/*Create */}
-                <div className="col-span-1 row-span-3  flex items-center justify-center flex-col bg-[#FAEEE2] rounded-lg">
+                <div className="col-span-1 row-span-3 flex items-center justify-center flex-col bg-[#FAEEE2] rounded-lg">
                   <div className="flex items-center justify-center  p-4 text-2xl font-bold ">
                     <p className="text-black leading-[1.7rem] font-semibold tracking-tighter">
                       Create and schedule content
@@ -30,7 +30,7 @@ export default function Home() {
                 </div>
 
                 {/* Social */}
-                <div className="flex items-center justify-center col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
+                <div className="flex items-center justify-center col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
                   <div>
                     <p className="font-semibold text-center p-4 text-4xl  text-white">
                       Social Media{" "}
@@ -159,7 +159,7 @@ export default function Home() {
                 </div>
 
                 {/* Grow followers with non-stop content.*/}
-                <div className="col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
+                <div className="col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
                   <div className="h-[100%] w-[45%]  p-4 flex items-center justify-center">
                     <div className="translate-x-2 translate-y-1">
                       <Image
