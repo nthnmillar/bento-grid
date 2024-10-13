@@ -74,7 +74,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className=" lg:w-[90%] mb-8 lg:mb-0  mt-7 lg:mt-0">
-                      <p className="text-black mt-5 ml-2 leading-[1.1rem] text-[18px] lg:text-[14px]">
+                      <p className="text-black mt-5 ml-2 leading-[1.4rem] lg:leading-[1.1rem] text-[18px] lg:text-[14px]">
                         Optimize post timings to publish content at the perfect
                         time for your audience.
                       </p>
