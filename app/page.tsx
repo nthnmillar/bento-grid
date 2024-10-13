@@ -9,7 +9,7 @@ export default function Home() {
             <div className="flex items-center justify-center  h-[100%] w-[100%]">
               <div className="grid grid-cols-1 lg:grid-cols-4  lg:grid-rows-6 gap-4 p-4 w-full h-full">
                 {/*Create */}
-                <div className="col-span-1 row-span-3 flex items-center justify-center flex-col bg-[#FAEEE2] rounded-lg">
+                <div className="order-7 lg:order-none col-span-1 row-span-3 flex items-center justify-center flex-col bg-[#FAEEE2] rounded-lg">
                   <div className="flex items-center justify-center  p-4 text-2xl font-bold ">
                     <p className="text-black leading-[1.7rem] font-semibold tracking-tighter">
                       Create and schedule content
@@ -30,7 +30,7 @@ export default function Home() {
                 </div>
 
                 {/* Social */}
-                <div className="flex items-center justify-center col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
+                <div className="order-1 lg:order-none flex items-center justify-center col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex-col">
                   <div>
                     <p className="font-semibold text-center p-4 text-4xl  text-white">
                       Social Media{" "}
@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
 
                 {/* Schedules */}
-                <div className="col-span-1 row-span-4 bg-[#dcd1fc] flex items-end justify-center flex-col overflow-hidden  rounded-lg">
+                <div className="order-4 lg:order-none col-span-1 row-span-4 bg-[#dcd1fc] flex items-end justify-center flex-col overflow-hidden  rounded-lg">
                   <div className="w-[90%]">
                     <div className="flex items-center justify-center mb-4 ">
                       <p className="text-black ml-2 leading-[1.1rem] text-[20px] font-bold">
@@ -80,7 +80,7 @@ export default function Home() {
                 </div>
 
                 {/* Manage multiple accounts and platforms */}
-                <div className="col-span-1 row-span-2 bg-white rounded-lg overflow-hidden">
+                <div className="order-2 lg:order-none col-span-1 row-span-2 bg-white rounded-lg overflow-hidden">
                   <div className="h-[30%] w-[100%] pt-5 pl-5  ">
                     <Image
                       src="/images/illustration-multiple-platforms.webp"
@@ -98,7 +98,7 @@ export default function Home() {
                 </div>
 
                 {/* Maintain multiple accounts and platforms. */}
-                <div className="col-span-1 row-span-2 bg-[#ffcc69] rounded-lg  overflow-hidden">
+                <div className="order-3 lg:order-none col-span-1 row-span-2 bg-[#ffcc69] rounded-lg  overflow-hidden">
                   <div className="h-[50%] w-[90%] pt-6 pl-5">
                     <p className="text-black leading-[1.4rem] text-2xl font-semibold">
                       Maintain a consistent posting schedule.
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
 
                 {/* Write your content using AI. */}
-                <div className="col-span-1 row-span-3 bg-[#ffcc69] rounded-lg">
+                <div className="order-8 lg:order-none col-span-1 row-span-3 bg-[#ffcc69] rounded-lg">
                   <div className="h-[40%] w-[70%] pt-4 pl-4 font-semibold ">
                     <p className="text-black leading-[1.6rem] text-[27px] tracking-tighter">
                       Write your content using AI.
@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
 
                 {/* TODO 2 */}
-                <div className="col-span-1 row-span-2 bg-white rounded-lg ">
+                <div className="order-6 lg:order-none col-span-1 row-span-2 bg-white rounded-lg ">
                   <div className="h-[50%] w-[80%] pt-5 pl-5">
                     <p className="text-black text-5xl font-semibold">
                       {">"}56%
@@ -159,7 +159,7 @@ export default function Home() {
                 </div>
 
                 {/* Grow followers with non-stop content.*/}
-                <div className="col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
+                <div className="order-5 lg:order-none col-span-1 lg:col-span-2 row-span-2 bg-[#7651dc] rounded-lg flex flex-row">
                   <div className="h-[100%] w-[45%]  p-4 flex items-center justify-center">
                     <div className="translate-x-2 translate-y-1">
                       <Image
